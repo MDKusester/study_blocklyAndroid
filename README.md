@@ -4,6 +4,7 @@
 2.实现了js和java代码互调  
 3.解析xml文件实现代码调用  
 4.动态添加blockly模块  
+![Image text](https://github.com/MDKusester/study_blocklyAndroid/blob/master/app.jpg)  
   
 在  https://bilibili.com  有详细视频教程  
 链接地址：
