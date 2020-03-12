@@ -1,0 +1,207 @@
+[
+
+  {
+    "type": "open_led",
+    "message0": "%1 LED灯",
+    "args0": [
+      {
+        "type": "field_dropdown",
+        "name": "on_or_off",
+        "options": [
+          [
+            "打开",
+            "1"
+          ],
+          [
+            "关闭",
+            "2"
+          ]
+        ]
+      }
+      ],
+    "previousStatement": null,
+    "nextStatement": null,
+    "colour": "#FFCD4F",
+    "tooltip": "",
+    "helpUrl": ""
+  },
+  {
+    "type": "state_led",
+    "message0": "LED灯状态",
+    "output": "Boolean",
+    "colour": "#00CD4F",
+    "tooltip": "",
+    "helpUrl": ""
+  },
+  {
+    "type": "move_go_back_time",
+    "message0": "运动 %1 速度 %2 时长 %3 秒",
+    "args0": [
+      {
+        "type": "field_dropdown",
+        "name": "go_or_back",
+        "options": [
+          [
+            "向前\u2191",
+            "1"
+          ],
+          [
+            "向后\u2193",
+            "2"
+          ]
+        ]
+      },
+      {
+        "type": "field_number",
+        "name": "move_speed",
+        "value": 100,
+        "min": 100,
+        "max": 255
+      },
+      {
+        "type": "field_number",
+        "name": "move_time",
+        "value": 1,
+        "min": 1,
+        "max": 255
+      }
+    ],
+    "inputsInline": true,
+    "previousStatement": null,
+    "nextStatement": null,
+    "colour": "#30DACC",
+    "tooltip": "",
+    "helpUrl": ""
+  },
+  {
+    "type": "move_clockwise",
+    "message0": "方向 %1 速度 %2 时长 %3 秒",
+    "args0": [
+      {
+        "type": "field_dropdown",
+        "name": "go_or_back",
+        "options": [
+          [
+            "顺时针\u21BB",
+            "1"
+          ],
+          [
+            "逆时针\u21BA",
+            "2"
+          ]
+        ]
+      },
+      {
+        "type": "field_number",
+        "name": "move_speed",
+        "value": 100,
+        "min": 100,
+        "max": 255
+      },
+      {
+        "type": "field_number",
+        "name": "move_time",
+        "value": 1,
+        "min": 1,
+        "max": 255
+      }
+    ],
+    "inputsInline": true,
+    "previousStatement": null,
+    "nextStatement": null,
+    "colour": "#30DACC",
+    "tooltip": "",
+    "helpUrl": ""
+  },
+  {
+    "type": "move_go_back",
+    "message0": "运动 %1 速度 %2",
+    "args0": [
+      {
+        "type": "field_dropdown",
+        "name": "go_or_back",
+        "options": [
+          [
+            "向前\u2191",
+            "1"
+          ],
+          [
+            "向后\u2193",
+            "2"
+          ]
+        ]
+      },
+      {
+        "type": "field_number",
+        "name": "move_speed",
+        "value": 100,
+        "min": 100,
+        "max": 255
+      }
+    ],
+    "inputsInline": true,
+    "previousStatement": null,
+    "nextStatement": null,
+    "colour": "#30DACC",
+    "tooltip": "",
+    "helpUrl": ""
+  },
+  {
+    "type": "move_direction",
+    "message0": "方向 %1 速度 %2",
+    "args0": [
+      {
+        "type": "field_dropdown",
+        "name": "go_or_back",
+        "options": [
+          [
+            "左转\u2190",
+            "1"
+          ],
+          [
+            "右转\u2192",
+            "2"
+          ]
+        ]
+      },
+      {
+        "type": "field_number",
+        "name": "move_speed",
+        "value": 100,
+        "min": 100,
+        "max": 255
+      }
+    ],
+    "inputsInline": true,
+    "previousStatement": null,
+    "nextStatement": null,
+    "colour": "#30DACC",
+    "tooltip": "",
+    "helpUrl": ""
+  },
+  {
+    "type": "move_stop",
+    "message0": "停止运动",
+    "previousStatement": null,
+    "nextStatement": null,
+    "colour": "#30DACC",
+    "tooltip": "停止运动",
+    "helpUrl": ""
+  },
+  {
+    "type": "control_wait",
+    "message0": "等待 %1 秒",
+    "args0": [
+      {
+        "type": "field_number",
+        "name": "control_time",
+        "value": 1
+      }
+    ],
+    "previousStatement": null,
+    "nextStatement": null,
+    "colour": "#04B2FF",
+    "tooltip": "",
+    "helpUrl": ""
+  }
+]
