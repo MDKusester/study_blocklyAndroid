@@ -7,4 +7,6 @@
 ![Image text](https://github.com/MDKusester/study_blocklyAndroid/blob/master/app.jpg)  
   
 在  https://bilibili.com  有详细视频教程  
-链接地址：
+链接地址：https://www.bilibili.com/video/av95432095/  
+
+TIPS:XML解析部分源码暂不开源，大家可以根据视频中的思路进行尝试。
